@@ -24,7 +24,7 @@ function changePage(direction /* page up or page down */)
   };
 
   // Call the searchBooks function to get the new results based on the updated currentPage and search query
-  this.searchBooks(this.getQueryValue());
+  searchBooks(getQueryValue());
 };
 
 // Gets the value of the search query input field
